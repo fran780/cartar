@@ -140,3 +140,42 @@ body {
     font-weight: bold;
     color: #ff4d4d;
 }
+
+/* CSS responsivo */
+@media (max-width: 600px) {
+    .envelope-container {
+        width: 100%;
+        height: 100%;
+        border: 5px solid #ff99a6; /* Borde más pequeño en pantallas pequeñas */
+    }
+
+    .envelope {
+        width: 280px;
+        height: 210px;
+    }
+
+    .flap.top {
+        border-width: 0 140px 105px 140px;
+    }
+
+    .flap.left {
+        border-width: 105px 140px 105px 0;
+    }
+
+    .flap.right {
+        border-width: 105px 0 105px 140px;
+    }
+
+    .flap.bottom {
+        border-width: 105px 140px 0 140px;
+    }
+
+    .letter {
+        padding: 15px;
+    }
+
+    .heart {
+        width: 20px;
+        height: 20px;
+    }
+}
