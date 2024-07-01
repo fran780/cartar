@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Amorosa</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="envelope-container">
+        <div class="envelope">
+            <div class="flap top"></div>
+            <div class="flap left"></div>
+            <div class="flap right"></div>
+            <div class="flap bottom"></div>
+            <img src="corazon.png" alt="Corazon" class="heart">
+            <div class="letter">
+                <p>Para: Alejandra</p>
+                <p>Buenos días Alejandra. admiro su dedicación e inteligencia, nunca dude de su capacidad aunque las cosas no salgan como uno espera. Ánimos la aprecio y quiero mucho. Le deseo exitos en toda su semana. Bendiciones🙏🏻</p>
+                <p>Con amor,<br>Carlos Cordoba</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.envelope').addEventListener('click', () => {
+            document.querySelector('.envelope').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
